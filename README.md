@@ -1,1 +1,1 @@
-# algo trading
+# typescript template
