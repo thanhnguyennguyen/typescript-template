@@ -2,7 +2,8 @@
   "name": "node-ts-template",
   "version": "0.0.0",
   "description": "node-ts-template",
-  "type": "module",
+  "main": "build/src/main.js",
+  "types": "build/src/main.map.js",
   "engines": {
     "node": ">= 16"
   },
