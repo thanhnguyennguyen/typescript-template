@@ -17,6 +17,7 @@
     "plugin:jest/recommended",
     "prettier"
   ],
+  "ignorePatterns": ["jest.config.ts"],
   "rules": {
     // The following rule is enabled only to supplement the inline suppression
     // examples, and because it is not a recommended rule, you should either
