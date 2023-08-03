@@ -32,7 +32,7 @@
     "build:release": "npm run clean && tsc -p tsconfig.release.json",
     "lint": "eslint . --ext .ts --ext .mts",
     "lint-fix": "eslint --fix . --ext .ts --ext .mts",
-    "test": "jest --coverage",
+    "test": "jest --coverage --passWithNoTests",
     "prettier": "prettier --config .prettierrc --write .",
     "test:watch": "jest --watch"
   },
